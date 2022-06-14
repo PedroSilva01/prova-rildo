@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <link rel="shortcut icon" href="./assets/img/icon/engenheiro.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <title>Silva Construções</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo-main">
+                <a href="#"><img src="./assets/img/icon/engenheiro.png" alt="logo"></a>
+            </div>
+            <span>Silva Construções</span>
+            <div class="nav">
+                <nav class="navigation">
+                    <ul class="nav-bar">
+                        <li><input type="text" placeholder="Encontre as melhores ofertas"></li>
+                        <li><a href="./assets/pages/cadastro.html" target="_self" class="Cadastro"><img src="./assets/img/icon/login-svgrepo-com.svg" alt="cadastro" class="cadastro-img">Cadastrar</li>
+                        <li><a href="./assets/pages/carrinhoDeCompras.html" target="_self" class="CarrinhoDeCompras"><img src="./assets/img/icon/icons8-carrinho-de-compras-64.png" alt="carrinho de compras"> Carrinho de compras</a></li>
+                        <li><div id="data"></div></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="carrosel">
+            <div class="conhecer">
+                <span> Venha conhecer nossa loja e conheça os nossos produtos logo a baixo</span>
+                <p>ou</p>
+                <span>Conhecer o autor do site<br> <button type="button"><a href='#rodape'>Conheça-nos</a></button> </span>
+            </div>    
+            <div class="items-pai">
+                
+                <div class="items"><img src="./assets/img/info_produtos/axe-1748305_640.jpg" alt="Machado" class="item"></div>
+            </div>
+        </div>
+
+        <div class="caixaProductGroup">
+            
+            <hr>
+            <span class="titulo-produtos">Aqui estão algums dos nossos produtos</span>
+            <div class="barra-1">
+                <div class="produtos-caixa-ind front">
+                    <img src="./assets/img/info_produtos/axe-1748305_640.jpg">
+                    <span>Indicada para diversas atividades, desde o corte de lenha até a construção civil e jardinagem.</span>
+                    <input type="button" onclick="comprar()" value="Comprar" id="comprar">
+                </div>
+
+                <div class="produtos-caixa-ind">
+                    <img src="./assets/img/info_produtos/electrician-3087536_640.jpg">
+                    <span>Acabamento polido<br>
+                        Cabo plástico anatômico com dois componentes<br>
+                        Linha Black Níckel</span>
+                    <input type="button" onclick="comprar()" value="Comprar" id="comprar">
+                </div>
+
+
+            </div>
+
+            <div class="barra-2">
+                <div class="produtos-caixa-ind">
+                    <img src="./assets/img/info_produtos/hammer-451987_640.jpg">
+                    <span>Cabo de madeira. Cabeça de aço forjada.</span>
+                    <input type="button" onclick="comprar()" value="Comprar" id="comprar">
+                </div>                
+                <div class="produtos-caixa-ind">
+                    <img src="./assets/img/info_produtos/emery-2780656_640.jpg">
+                    <span>Verifique a voltagem antes de comprar o produto para certificar-se de que corresponde à da sua região
+                        Voltagem 220</span>
+                    <input type="button" onclick="comprar()" value="Comprar" id="comprar">
+                </div>
+            </div>
+
+
+            <div class="barra-3">
+                <div class="produtos-caixa-ind">
+                    <img src="./assets/img/info_produtos/hand-1744958_640.jpg">
+                    <span>[Chave universal de ponta dupla, o alcance da mandíbula dos dois lados é 5 / 16-1 / 2 (8-13 mm) e 9 / 16-7 / 8 (14-22 mm).</span>
+                    <input type="button" onclick="comprar()" value="Comprar" id="comprar">
+                </div>
+
+                <div class="produtos-caixa-ind">
+                    <img src="./assets/img/produtos/axe-674841_640.jpg">
+                    <span>VERSITILIDADE PARA EXTERIOR – Perfeito para picar pequenas árvores e galhos. Use a ponta da palheta para violação, escavação e extricação</span>
+                    <input type="button" onclick="comprar()" value="Comprar" id="comprar">
+                </div>    
+
+            </div>              
+            <div class="modaletc">
+                <div id="modal">
+                    <a href=""><span onclick="fechar()" class="close">X | Fechar</span></a>
+                    <div class="confirm">
+                        <label for="confirm">Confirmar Pedido?</label>
+                        <div class="inputs">
+                            <input type="button" onclick="confirmY()" value="Sim" class="Confirmed">
+                            <input type="button" onclick="confirmN()" value="Não" class="NotConfirm">
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <footer>
+        <ul id="rodape">
+            <li><a>Feito por: Pedro Victor</a></li>
+            <li><a href="linkedin.com/in/pedro-silva-a172b6202" target="_blank"><img src="./assets/img/icon/linkedin.svg"><span>Linkedin</span></a></li>
+            <li><a href="emailto:pedro.kzn.victor@gmail.com" target="_blank"><img src="./assets/img/icon/gmail/icons8-gmail-96.svg"><span>Email</span></a></li>
+            <li><a href="https://github.com/PedroSilva01" target="_blank"><img src="./assets/img/icon/github/icons8-github-96.svg"><span>Github</span> </a></li>
+        </ul>
+    </footer>
+</body>
+</html>
